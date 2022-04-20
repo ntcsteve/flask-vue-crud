@@ -32,4 +32,4 @@ Check out the [post](https://testdriven.io/developing-a-single-page-app-with-fla
 
 4. Get the New Relic [license key](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/#overview-keys) and place it in the newrelic.ini file.
 
-5. Break the app - line 59 in appy.py, to see issues in New Relic Error Inbox, and Distributed Tracing.
+5. Break the app - line 59 in app.py (server), to see issues in New Relic Error Inbox, and Distributed Tracing.
