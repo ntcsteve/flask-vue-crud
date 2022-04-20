@@ -8,7 +8,7 @@ Check out the [post](https://testdriven.io/developing-a-single-page-app-with-fla
 
 1. Fork/Clone
 
-1. Run the server-side Flask app in one terminal window:
+2. Run the server-side Flask app in one terminal window:
 
     ```sh
     $ cd server
@@ -20,7 +20,7 @@ Check out the [post](https://testdriven.io/developing-a-single-page-app-with-fla
 
     Navigate to [http://localhost:5000](http://localhost:5000)
 
-1. Run the client-side Vue app in a different terminal window:
+3. Run the client-side Vue app in a different terminal window:
 
     ```sh
     $ cd client
@@ -29,3 +29,7 @@ Check out the [post](https://testdriven.io/developing-a-single-page-app-with-fla
     ```
 
     Navigate to [http://localhost:8080](http://localhost:8080)
+
+4. Get the New Relic [https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/#overview-keys](license key) and place it in the newrelic.ini file.
+
+5. Break the app - line 60 in appy.py, to see issues in New Relic Error Inbox, and Distributed Tracing.
